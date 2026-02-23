@@ -4,7 +4,7 @@ import MatrixRain from "@/components/MatrixRain";
 import TypingEffect from "@/components/TypingEffect";
 import SkillsGrid from "@/components/SkillsGrid";
 import ProjectsSection from "@/components/ProjectsSection";
-import { Github, Mail, Linkedin, ChevronRight } from "lucide-react";
+import { Github, Mail, Linkedin, Shield, ChevronRight } from "lucide-react";
 
 const Index = () => {
   const [showContent, setShowContent] = useState(false);
@@ -26,7 +26,7 @@ const Index = () => {
 
           <h1 className="text-3xl sm:text-4xl font-bold text-foreground text-glow mb-4 leading-tight">
             <TypingEffect
-              text="Hacker & Automação"
+              text="Kauã Morateli"
               speed={70}
               onComplete={handleTypingComplete}
             />
@@ -37,15 +37,22 @@ const Index = () => {
             animate={{ opacity: showContent ? 1 : 0 }}
             transition={{ duration: 0.8 }}
           >
+            <div className="flex items-center gap-2 mb-4">
+              <Shield className="w-4 h-4 text-primary" />
+              <span className="text-sm text-foreground font-medium">
+                CyberSecurity | Ethical Hacker | RPA Developer
+              </span>
+            </div>
+
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xl mb-6">
-              <span className="text-primary">{">"}</span> Desenvolvedor focado em automação, scripts e ferramentas
-              que tornam sistemas mais eficientes. Transformo processos manuais
-              em pipelines automatizados.
+              <span className="text-primary">{">"}</span> Profissional de segurança ofensiva e automação.
+              Especializado em Ethical Hacking, Offensive Security, Hardware Hacking,
+              RPA e Cybersecurity Posture. Certificado DCPT.
             </p>
 
             <div className="flex gap-4">
               <a
-                href="https://github.com"
+                href="https://github.com/knyKM"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors"
@@ -54,7 +61,7 @@ const Index = () => {
                 GitHub
               </a>
               <a
-                href="https://linkedin.com"
+                href="https://linkedin.com/in/kauamorateli"
                 target="_blank"
                 rel="noopener noreferrer"
                 className="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors"
@@ -63,7 +70,7 @@ const Index = () => {
                 LinkedIn
               </a>
               <a
-                href="mailto:seu@email.com"
+                href="mailto:kaua@morateli.com"
                 className="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Mail className="w-4 h-4" />
