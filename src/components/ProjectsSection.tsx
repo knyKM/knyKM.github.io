@@ -3,27 +3,27 @@ import { Folder, ExternalLink } from "lucide-react";
 
 const projects = [
   {
-    name: "auto-deploy",
-    desc: "Pipeline de CI/CD automatizado com GitHub Actions e Docker",
-    tech: ["Python", "Docker", "GitHub Actions"],
+    name: "pentest-toolkit",
+    desc: "Conjunto de ferramentas customizadas para testes de penetração e análise de vulnerabilidades",
+    tech: ["Python", "Bash", "Nmap", "Metasploit"],
     link: "#",
   },
   {
-    name: "web-scraper",
-    desc: "Bot de coleta de dados com parsing inteligente e exportação",
-    tech: ["Python", "BeautifulSoup", "Selenium"],
+    name: "rpa-automator",
+    desc: "Framework de automação RPA para processos empresariais repetitivos",
+    tech: ["Python", "Selenium", "RPA", "API"],
     link: "#",
   },
   {
-    name: "infra-monitor",
-    desc: "Dashboard de monitoramento de servidores em tempo real",
-    tech: ["Node.js", "WebSocket", "React"],
+    name: "hardware-hacking-lab",
+    desc: "Projetos de engenharia reversa e análise de segurança em dispositivos IoT",
+    tech: ["Arduino", "Firmware", "UART", "SPI"],
     link: "#",
   },
   {
-    name: "task-automator",
-    desc: "Ferramenta CLI para automação de tarefas repetitivas",
-    tech: ["Bash", "Python", "Cron"],
+    name: "cyber-posture-monitor",
+    desc: "Dashboard de monitoramento de postura de segurança cibernética em tempo real",
+    tech: ["Python", "Docker", "SIEM", "API"],
     link: "#",
   },
 ];
