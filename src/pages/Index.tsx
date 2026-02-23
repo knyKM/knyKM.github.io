@@ -47,7 +47,7 @@ const Index = () => {
             <p className="text-muted-foreground text-sm leading-relaxed max-w-xl mb-6">
               <span className="text-primary">{">"}</span> Profissional de segurança ofensiva e automação.
               Especializado em Ethical Hacking, Offensive Security, Hardware Hacking,
-              RPA e Cybersecurity Posture. Certificado DCPT.
+              RPA e Cybersecurity Posture. Certificação DCPT em andamento.
             </p>
 
             <div className="flex gap-4">
@@ -70,7 +70,7 @@ const Index = () => {
                 LinkedIn
               </a>
               <a
-                href="mailto:kaua@morateli.com"
+                href="mailto:kauamorateli@outlook.com"
                 className="flex items-center gap-2 text-xs text-muted-foreground hover:text-foreground transition-colors"
               >
                 <Mail className="w-4 h-4" />
