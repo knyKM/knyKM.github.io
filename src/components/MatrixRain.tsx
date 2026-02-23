@@ -23,9 +23,9 @@ const MatrixRain = () => {
     const drops: number[] = Array(columns).fill(1);
 
     const draw = () => {
-      ctx.fillStyle = "rgba(5, 12, 5, 0.05)";
+      ctx.fillStyle = "rgba(5, 8, 15, 0.05)";
       ctx.fillRect(0, 0, canvas.width, canvas.height);
-      ctx.fillStyle = "hsl(120, 100%, 50%)";
+      ctx.fillStyle = "hsl(216, 48%, 40%)";
       ctx.font = `${fontSize}px 'Fira Code', monospace`;
 
       for (let i = 0; i < drops.length; i++) {

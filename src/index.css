@@ -6,44 +6,44 @@
 
 @layer base {
   :root {
-    --background: 120 5% 5%;
-    --foreground: 120 100% 65%;
+    --background: 216 30% 6%;
+    --foreground: 216 50% 70%;
 
-    --card: 120 5% 8%;
-    --card-foreground: 120 100% 65%;
+    --card: 216 30% 9%;
+    --card-foreground: 216 50% 70%;
 
-    --popover: 120 5% 8%;
-    --popover-foreground: 120 100% 65%;
+    --popover: 216 30% 9%;
+    --popover-foreground: 216 50% 70%;
 
-    --primary: 120 100% 50%;
-    --primary-foreground: 120 5% 5%;
+    --primary: 216 48% 34%;
+    --primary-foreground: 216 30% 95%;
 
-    --secondary: 120 30% 12%;
-    --secondary-foreground: 120 100% 65%;
+    --secondary: 216 30% 14%;
+    --secondary-foreground: 216 50% 70%;
 
-    --muted: 120 10% 15%;
-    --muted-foreground: 120 40% 40%;
+    --muted: 216 20% 16%;
+    --muted-foreground: 216 25% 45%;
 
-    --accent: 180 100% 50%;
-    --accent-foreground: 120 5% 5%;
+    --accent: 200 70% 50%;
+    --accent-foreground: 216 30% 6%;
 
     --destructive: 0 80% 50%;
     --destructive-foreground: 0 0% 100%;
 
-    --border: 120 40% 20%;
-    --input: 120 40% 20%;
-    --ring: 120 100% 50%;
+    --border: 216 30% 22%;
+    --input: 216 30% 22%;
+    --ring: 216 48% 34%;
 
     --radius: 0.25rem;
 
-    --glow-primary: 0 0 20px hsl(120 100% 50% / 0.4);
-    --glow-accent: 0 0 20px hsl(180 100% 50% / 0.3);
+    --glow-primary: 0 0 20px hsl(216 48% 34% / 0.4);
+    --glow-accent: 0 0 20px hsl(200 70% 50% / 0.3);
     --scanline: repeating-linear-gradient(
       0deg,
       transparent,
       transparent 2px,
-      hsl(120 100% 50% / 0.03) 2px,
-      hsl(120 100% 50% / 0.03) 4px
+      hsl(216 48% 34% / 0.03) 2px,
+      hsl(216 48% 34% / 0.03) 4px
     );
   }
 }
@@ -59,18 +59,18 @@
   }
 
   ::selection {
-    background: hsl(120 100% 50% / 0.3);
-    color: hsl(120 100% 80%);
+    background: hsl(216 48% 34% / 0.4);
+    color: hsl(216 50% 85%);
   }
 
   ::-webkit-scrollbar {
     width: 6px;
   }
   ::-webkit-scrollbar-track {
-    background: hsl(120 5% 5%);
+    background: hsl(216 30% 6%);
   }
   ::-webkit-scrollbar-thumb {
-    background: hsl(120 100% 50% / 0.3);
+    background: hsl(216 48% 34% / 0.4);
     border-radius: 3px;
   }
 }
@@ -97,19 +97,19 @@
 .cursor-blink::after {
   content: '█';
   animation: blink 1s infinite;
-  color: hsl(120 100% 50%);
+  color: hsl(216 50% 70%);
 }
 
 .text-glow {
-  text-shadow: 0 0 10px hsl(120 100% 50% / 0.8), 0 0 40px hsl(120 100% 50% / 0.3);
+  text-shadow: 0 0 10px hsl(216 48% 50% / 0.8), 0 0 40px hsl(216 48% 34% / 0.4);
 }
 
 .text-glow-accent {
-  text-shadow: 0 0 10px hsl(180 100% 50% / 0.8), 0 0 40px hsl(180 100% 50% / 0.3);
+  text-shadow: 0 0 10px hsl(200 70% 50% / 0.8), 0 0 40px hsl(200 70% 50% / 0.3);
 }
 
 .border-glow {
-  box-shadow: var(--glow-primary), inset 0 0 20px hsl(120 100% 50% / 0.05);
+  box-shadow: var(--glow-primary), inset 0 0 20px hsl(216 48% 34% / 0.08);
 }
 
 .scanline-overlay::before {
