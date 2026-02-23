@@ -1,13 +1,13 @@
 import { motion } from "framer-motion";
-import { Terminal, Code2, Bot, Cpu, GitBranch, Zap } from "lucide-react";
+import { Shield, Bug, Cpu, GitBranch, Bot, Wifi } from "lucide-react";
 
 const skills = [
-  { icon: Terminal, label: "Shell Scripting", desc: "Bash, PowerShell, automação de tarefas" },
-  { icon: Code2, label: "Desenvolvimento", desc: "Python, JavaScript, TypeScript" },
-  { icon: Bot, label: "Automação", desc: "Web scraping, bots, CI/CD pipelines" },
-  { icon: Cpu, label: "DevOps", desc: "Docker, Linux, infraestrutura" },
-  { icon: GitBranch, label: "Versionamento", desc: "Git, GitHub, workflows" },
-  { icon: Zap, label: "APIs", desc: "REST, integrations, webhooks" },
+  { icon: Shield, label: "Offensive Security", desc: "Pentest, Red Team, exploração de vulnerabilidades" },
+  { icon: Bug, label: "Ethical Hacking", desc: "Bug bounty, análise de segurança, OWASP" },
+  { icon: Cpu, label: "Hardware Hacking", desc: "IoT security, firmware analysis, engenharia reversa" },
+  { icon: Bot, label: "RPA & Automação", desc: "Automação de processos, bots, scripts inteligentes" },
+  { icon: Wifi, label: "Cybersecurity Posture", desc: "Hardening, monitoramento, gestão de riscos" },
+  { icon: GitBranch, label: "Desenvolvimento", desc: "Python, Bash, ferramentas ofensivas e defensivas" },
 ];
 
 const SkillsGrid = () => {
